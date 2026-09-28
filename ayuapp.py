@@ -68,8 +68,8 @@ with tab_info:
                          Wednesday -  - 09:00AM - 13:00PM | 17:00 PM - 21:00 PM
                          Thursday - - 09:00AM - 13:00PM | 17:00 PM - 21:00 PM
                          Friday - 05:00 PM - 09:00 PM
-    * **Contact Phone:** +94 7X XXX XXXX
-    * **Email:** info@yourcenter.com
+    * **Contact Phone:** +94 76 313 0817  |  +94 72 350 4585
+    * **Email:** fernandrasanga@gmail.com
     """)
 
 # ---------------------------------------------------------
@@ -85,7 +85,7 @@ with tab_book:
         
         treatment_selected = st.selectbox(
             "Select Treatment*",
-            ["Herbal Steam Bath", "Abhyanga Massage", "Panchakarma Therapy", "General Consultation"]
+            ["Herbal Steam Bath", "Abhyanga Massage", "Panchakarma Therapy", "General Consultation", "Nasna Karma", "Other"]
         )
         
         booking_date = st.date_input("Preferred Date*", min_value=date.today())
