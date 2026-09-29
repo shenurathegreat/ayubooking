@@ -96,7 +96,7 @@ with tab_book:
         booking_date = st.date_input("Preferred Date*", min_value=date.today())
         booking_time = st.selectbox(
             "Preferred Time Slot*",
-            ["09:00 AM", "11:00 AM", "02:00 PM", "04:00 PM"]
+            ["09:00 AM","10:00 AM", "11:00 AM", "17:00 PM", "18:00 PM","19:00 PM","20:00 PM"]
         )
         additional_notes = st.text_area("Special Notes or Medical Concerns (Optional)")
         
