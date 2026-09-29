@@ -11,12 +11,7 @@ st.set_page_config(
     page_title="",
     page_icon="🌿",
     layout="centered"
-)
-st.set_page_config(
-    page_title="Ayurveda Treatment Center",
-    page_icon="Sketch_Refined_-_make_this_20260929080746.jpg",
-    layout="centered"
-)
+
 
 # ---------------------------------------------------------
 # Database Connection (Google Sheets)
