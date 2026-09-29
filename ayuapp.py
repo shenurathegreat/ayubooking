@@ -14,7 +14,7 @@ st.set_page_config(
 )
 st.set_page_config(
     page_title="Ayurveda Treatment Center",
-    page_icon="C:\Users\User\Documents\ayurveda\Sketch_Refined_-_make_this_20260929080746.jpg",
+    page_icon="Sketch_Refined_-_make_this_20260929080746.jpg",
     layout="centered"
 )
 
