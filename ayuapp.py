@@ -46,6 +46,11 @@ except Exception:
 # UI Layout & Navigation
 # ---------------------------------------------------------
 st.title("🌿 Ayurveda Treatment Center")
+st.image(
+    "Sketch_Refined_-_make_this_20260929080746.jpg", 
+    caption="Ayurveda Center",
+    width=300  # Adjust width in pixels as needed
+)
 
 # Navigation tabs
 tab_info, tab_book, tab_admin = st.tabs(["About Us", "Book Appointment", "Admin Portal"])
